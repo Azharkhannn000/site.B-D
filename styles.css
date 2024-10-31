@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+.container{
+    padding-left: 33px;
+}
+.head{
+    display: grid;
+    grid-template-columns:  450px 120px 120px 120px 120px 300px 10px;
+    color: white;
+    background-position: center;
+    height: 870px;
+    font-weight: 1000;
+    background-image: url(first-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head img{
+    width: 1500px;
+}
+.head:hover{
+    text-decoration: underline;
+}
+.head h1{
+    color: black;
+}
+.head .dots:hover{
+    font-size: 30px;
+}
+.first{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    place-content: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    min-height: 80vh;
+    text-align: center;
+}
+.first img:hover{
+    width: 350px;
+}
+.first p:hover{
+    text-decoration: underline;
+}
+.eki-company{
+    margin-top: 50px;
+}
+.second{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+    font-size: 40px;
+}
+.second button{
+    width: 150px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: white;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.third{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    line-height: 1.5rem;
+    padding-bottom: 100px;
+}
+.third h1{
+    margin-bottom: 15px;
+}
+.third img{
+    width: 300px;
+    height: 400px;
+}
+.third-1 img:hover{
+    width: 330px;
+    height: 440px;
+}
+.third-1 h1:hover{
+    text-decoration: underline;
+}
+.third-2 img:hover{
+    width: 330px;
+    height: 440px;
+}
+.third-2 h1:hover{
+    text-decoration: underline;
+}
+.third-3 img:hover{
+    width: 330px;
+    height: 440px;
+}
+.third-3 h1:hover{
+    text-decoration: underline;
+}
+.four{
+    display: grid;
+    grid-template-columns: 45% 45% 33%;
+    padding-bottom: 70px;
+}
+.five{
+    display: grid;
+    grid-template-columns: repeat(7, 25%);
+    padding-bottom: 100px;
+}
+.five img{
+    width: 150px;
+}
+.six{
+    background-color: rgb(0, 0, 0);
+    width: 1500px;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    place-content: center;
+    padding: 50px;
+    padding-bottom: 50px;
+}
+.six-bir p{
+    font-size: 90px;
+    font-weight: 700;
+    color: rgb(228, 167, 187);
+}
+.six-bir h3{
+    color: rgb(228, 167, 187);
+    padding-bottom: 20px;
+}
+.six img{
+    width: 500px;
+    height: 550px;
+}
+.six button{
+    border: 1px solid rgb(228, 167, 187);
+    border-radius: 50px;
+    background-color: black;
+    color: rgb(228, 167, 187);
+    width: 100px;
+    height: 35px;
+}
+.seven{
+    padding-bottom: 50px;
+    display: grid;
+    gap: 1rem;
+}
+.parag{
+    font-size: 15px;
+}
+.seven-bir{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.seven-bir h1:hover{
+    text-decoration: underline;
+}
+.seven-bir img:hover{
+    width: 440px;
+    height: 300px;
+}
+.seven-eki{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.seven-eki h1:hover{
+    text-decoration: underline;
+}
+.seven-eki img:hover{
+    width: 440px;
+    height: 300px;
+}
+.seven-ush{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.seven-ush h1:hover{
+    text-decoration: underline;
+}
+.seven-ush img:hover{
+    width: 440px;
+    height: 300px;
+}
+.seven-tort{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.seven-tort h1:hover{
+    text-decoration: underline;
+}
+.seven-tort img:hover{
+    width: 440px;
+    height: 300px;
+}
+.foot{
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 100px 0px 150px 0px;
+}
+.foot img{
+    border-radius: 50px;
+    margin-bottom: 70px;
+}
+.foot-three{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding-top: 25px;
+}
+.input{
+    background-color: black;
+    border: none;
+    color: white;
+    height: 60px;
+    font-size: 20px;
+}
+.foot hr{
+    width: 500px;
+}
+
+@media only screen and (max-width: 768px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 700px;
+    }
+    .head{
+        display: grid;
+        grid-template-columns: 30% 7% 7% 7% 9% 9% 14% 7%;
+        margin-left: 200px;
+        color: rgb(0, 0, 0);
+    }
+    .head img{
+        width: 900px;
+    }
+    .first{
+        display: flex;
+        flex-direction: column;
+    }
+    .second{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .third{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .four{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+    }
+    .five{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .six{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 1000px;
+        height: 1200px;
+    }
+    .featured{
+        margin-left: 200px;
+    }
+    .seven{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .seven img{
+        width: 150px;
+    }
+    .foot{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        width: 1100px;
+    }
+}
